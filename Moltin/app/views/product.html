@@ -1,0 +1,8 @@
+<h1>{{ product.title }}</h1>
+
+<div ng-bid-html="product.description"></div>
+
+<strong>{{ product.pricing.formatted.without_tax }}</strong>
+
+<button ng-if="!addStatus" ng-click="addCart()" class="btn btn-success">Add to Cart</button>
+<button ng-if="addStatus" class="btn btn-warning">{{addStatus}}</button>

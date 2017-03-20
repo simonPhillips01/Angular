@@ -1,0 +1,20 @@
+{
+  "name": "angular-material",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Simon Phillips"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/simonPhillips01/Angular",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-material-icons": "^0.7.1"
+  }
+}

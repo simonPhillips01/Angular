@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "angular": "registry:dt/angular#1.6.0+20170310065540",
+    "angular-material": "registry:dt/angular-material#1.1.0+20170207215431"
+  }
+}
